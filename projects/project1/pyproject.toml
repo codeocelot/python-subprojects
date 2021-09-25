@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "project1"
+version = "0.1.0"
+description = ""
+authors = ["Joey Gracey <joey@yewno.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+module1 = {path = "../../modules/module1", develop=true}
+module2 = {path = "../../modules/module2", develop=true}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

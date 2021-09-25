@@ -1,0 +1,34 @@
+[[package]]
+name = "module1"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.7"
+develop = true
+
+[package.source]
+type = "directory"
+url = "../../modules/module1"
+
+[[package]]
+name = "module2"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.7"
+develop = true
+
+[package.source]
+type = "directory"
+url = "../../modules/module2"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.7"
+content-hash = "84cfdf246fe03f5b2fa4b708c74b8efeba732f378ac0b88a5d5424510d8e7e93"
+
+[metadata.files]
+module1 = []
+module2 = []
